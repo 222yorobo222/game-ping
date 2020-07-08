@@ -15,13 +15,13 @@ var x = canvas.width / 2;
 // Vertical position of the ball when we start
 var y = canvas.height - 30;
 // Horizontal speed of the ball. Increase for more stamina
-var dx = 2;
+var dx =-3 +  Math.random() * 6;
 // Vertical speed ot the ball. Increase for more madness
-var dy = -2;
+var dy = -4.5;
 // The height of the paddle.
 var paddleHeight = 10;
 // The width of the paddle. Don't make it to big you cheater  !!! :-)
-var paddleWidth = 75;
+var paddleWidth = 90;
 // The Horizontal position of the paddle in the beginning
 var paddleX = (canvas.width - paddleWidth) / 2;
 // Setting the state of the right arrow key in the beginning of the game
@@ -29,19 +29,19 @@ var rightPressed = false;
 // Setting the state of the left arrow key in the beginning of the game
 var leftPressed = false;
 // Number of row of brick
-var brickRowCount = 22;
+var brickRowCount = 5;
 // Number of column of brick
-var brickColumnCount = 3;
+var brickColumnCount = 10;
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
-var brickWidth = 10;
+var brickWidth = 83;
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
-var brickHeight = 95;
+var brickHeight = 10;
 // The space between each brick
 var brickPadding = 10;
 // The space between the top and the bricks
 var brickOffsetTop = 30;
 // The space between the left wall and the bricks
-var brickOffsetLeft = 30;
+var brickOffsetLeft = 10;
 // The score of the beginning
 var score = 0;
 // The number of lives you start with. Decrease to one... it will be insane mouahahahaha
@@ -49,17 +49,17 @@ var lives = 1;
 // The message that you will receive when you win
 var messageWin = "Tu a gagné ! BRAVO ! :-)";
 // The message that you will receive when you lose
-var messageGameOver = "perdu :-( tu gagnera une prochaine fois...";
+var messageGameOver = "perdu :-( tu gagnera une prochaine fois... bonne chance !";
 // The color of the ball
-var ballColor = "#0095DD";
+var ballColor = "#EEE";
 // The color of the paddle
-var paddleColor = "#0095DD";
+var paddleColor = "#EEE";
 // The color of the brick
-var brickColor = "#0095DD";
+var brickColor = "#EEE";
 // The color of the score
-var scoreColor = "#0095DD";
+var scoreColor = "#EEE";
 // The color of the lives
-var liveColor = "#0095DD";
+var liveColor = "#EEE";
 //######################## END OF THE VARIABLES SETTINGS #################################
 
 //!!!!!!!!!!!!!!!! CAUTION, DON'T TOUCH WHAT'S BELOW THIS LINE!!!!!!!!!!!!!!!!!!!!!!
