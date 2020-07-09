@@ -57,7 +57,7 @@ var paddleColor = "#EEE";
 // The color of the brick
 var brickColor = "#EEE";
 // The color of the score
-var scoreColor = "#EEE";
+var scoreColor = "#000000";
 // The color of the lives
 var liveColor = "#EEE";
 //######################## END OF THE VARIABLES SETTINGS #################################
