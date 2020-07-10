@@ -9,7 +9,7 @@ var canvas = document.getElementById("myCanvas");
 // this line tells that we will create an 2D game. 3D will be when you know more math ;-)
 var ctx = canvas.getContext("2d");
 // Define the radius of a ball
-var ballRadius = 10;
+var ballRadius = 13;
 // Horizontal position of the ball when we start
 var x = canvas.width / 2;
 // Vertical position of the ball when we start
@@ -19,9 +19,9 @@ var dx =-3 +  Math.random() * 6;
 // Vertical speed ot the ball. Increase for more madness
 var dy = -4.5;
 // The height of the paddle.
-var paddleHeight = 10;
+var paddleHeight = 13;
 // The width of the paddle. Don't make it to big you cheater  !!! :-)
-var paddleWidth = 90;
+var paddleWidth = 120;
 // The Horizontal position of the paddle in the beginning
 var paddleX = (canvas.width - paddleWidth) / 2;
 // Setting the state of the right arrow key in the beginning of the game
@@ -29,13 +29,13 @@ var rightPressed = false;
 // Setting the state of the left arrow key in the beginning of the game
 var leftPressed = false;
 // Number of row of brick
-var brickRowCount = 8;
+var brickRowCount = 16;
 // Number of column of brick
-var brickColumnCount = 12;
+var brickColumnCount = 30;
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
-var brickWidth = 87
+var brickWidth = 108
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
-var brickHeight = 10;
+var brickHeight = 12;
 // The space between each brick
 var brickPadding = 10;
 // The space between the top and the bricks
