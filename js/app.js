@@ -55,7 +55,7 @@ var ballColor = "#EEE";
 // The color of the paddle
 var paddleColor = "#EEE";
 // The color of the brick
-var brickColor = "#EEE";
+var brickColor = "#9E9E9E";
 // The color of the score
 var scoreColor = "#000000";
 // The color of the lives
