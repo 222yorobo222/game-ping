@@ -17,7 +17,7 @@ var y = canvas.height - 30;
 // Horizontal speed of the ball. Increase for more stamina
 var dx =-3 +  Math.random() * 6;
 // Vertical speed ot the ball. Increase for more madness
-var dy = -4.5;
+var dy = -6;
 // The height of the paddle.
 var paddleHeight = 13;
 // The width of the paddle. Don't make it to big you cheater  !!! :-)
