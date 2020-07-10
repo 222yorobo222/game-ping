@@ -29,11 +29,11 @@ var rightPressed = false;
 // Setting the state of the left arrow key in the beginning of the game
 var leftPressed = false;
 // Number of row of brick
-var brickRowCount = 5;
+var brickRowCount = 8;
 // Number of column of brick
-var brickColumnCount = 10;
+var brickColumnCount = 12;
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
-var brickWidth = 107.5
+var brickWidth = 87
 // The width of a brick. Make it smaller to improve your aiming then you can increase the number of rows and column of bricks
 var brickHeight = 10;
 // The space between each brick
